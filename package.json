@@ -26,7 +26,9 @@
     "webpack-cli": "^3.3.4"
   },
   "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }
