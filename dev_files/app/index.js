@@ -18,7 +18,7 @@ To create links, format the display text and the URL like so: [Google](http://ww
 
 Images are also supported and work exactly like links, but with exclamation points in front.
 
-![Google Logo](http://www.google.com/images/errors/logo_sm.gif)
+![Google Logo](https://lh3.googleusercontent.com/NGPrjka2ai0w7sfhxkxCwtOSh2wVyEZMdtrVxI4vrA22ebA_fcyl9PSvhTaCYXSWh0A68ZhvXhVZ4U-Nnp3v9IfoXg5o5H1tjjK97cs)
 
 If you want to include block quotes, start each line with a greater-than symbol.
 > See how easy this is?
@@ -71,7 +71,7 @@ class Editor extends React.Component {
         {/* render to the left/top side */}
         <div id="left">
           <h1 className="main"><i className="fas fa-edit"></i> Editor</h1>
-          <textarea id="editor" value={this.state.value} onChange={this.handleChange.bind(this)} />
+          <textarea id="editor" label="editor" value={this.state.value} onChange={this.handleChange.bind(this)} />
         </div>
         <Previewer userInput={this.state.value} /> {/* Pass the Editor text as props to the Previewer */}
       </div>
