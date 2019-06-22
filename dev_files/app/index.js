@@ -71,7 +71,7 @@ class Editor extends React.Component {
         {/* render to the left/top side */}
         <div id="left">
           <h1 className="main"><i className="fas fa-edit"></i> Editor</h1>
-          <label for="editor">Test out your Markdown text here:</label>
+          <label for="editor" class="sr-only">Test out your Markdown text here:</label>
           <textarea id="editor" value={this.state.value} onChange={this.handleChange.bind(this)} />
         </div>
         <Previewer userInput={this.state.value} /> {/* Pass the Editor text as props to the Previewer */}
