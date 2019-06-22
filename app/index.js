@@ -1,3 +1,7 @@
+// React code
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 // initial Editor text (template literal using ES6 syntax) using Marked.js syntax to highlight different use cases
 const defaultText = `
 # Welcome to my React Markdown Previewer!
