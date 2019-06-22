@@ -20,15 +20,6 @@ h1.main {
   margin: 0 auto;
 }
 
-/* hide but make accesible to screen readers */
-.sr-only {
-  position: absolute !important;
-  height: 1px; width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
 /* left side (or top side on mobile) of screen */
 #left {
   margin: 0 auto;
