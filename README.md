@@ -21,4 +21,4 @@ You can find my original files in /dev_files/app, and the root files are copied 
 
 ## Author
 
-Jamie Ev. - [LinkedIn](https://www.linkedin.com/in/everettjamie/)
+Jamie Ev. - [LinkedIn](https://www.linkedin.com/in/jamie-ev)
